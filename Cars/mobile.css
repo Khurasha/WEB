@@ -1,0 +1,138 @@
+@media screen and (max-width:650px)
+{
+    #main
+    {
+        display: grid;
+        text-align: center;
+        background-color: rgb(94, 110, 110);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+                                "lo"
+                                "pass"
+                                "login"
+                                "img1"
+                                "img2"
+                                "img3"
+                                "in"
+                                "img4"
+                                "img5"
+                                "navi"
+                                "img6"
+                                "img7"
+                                "img8"
+                                "img9"
+                                "img10"
+                                
+        ;
+    }
+ img
+ {
+    height: 150px;
+    width: 250px;
+    padding: 10%
+ }
+ p
+ {
+    display: none;
+ }
+ a
+ {
+    color: black;
+    text-align: right;
+ }
+ ul
+ {
+    text-align: left;
+    text-decoration: double;
+ }
+ ol
+ {
+   display: none;
+ }
+ #lo
+ {
+    grid-area: lo;
+    padding-top: 10px;
+    border: 2px solid black;
+ }
+ #logo
+ {
+   height: 120px;
+   width: 200px;
+   padding: 0%;
+   float: left;
+ }
+ #login
+ {
+    grid-area: login;
+    padding-top: 10px;
+    border: 2px solid black;
+ }
+ #pass
+ {
+    grid-area: pass;
+    border: 2px solid black;
+    padding-top: 10px;
+ }
+ #navi
+ {
+    grid-area: navi;
+    border: 2px solid black;
+    padding-top: 10px;
+ }
+ #img1
+ {
+    grid-area: img1;
+    border: 2px solid black;
+ }
+ #img2
+ {
+    grid-area: img2;
+    border: 2px solid black;
+ }
+ #img3
+ {
+    grid-area: img3;
+    border: 2px solid rgb(12, 12, 12);
+ }
+ #img4
+ {
+    grid-area: img4;
+    border: 2px solid black;
+ }
+ #img5
+ {
+    grid-area: img5;
+    border: 2px solid black;
+ }
+ #img6
+ {
+    grid-area: img6;
+    border: 2px solid black;
+ }
+ #img7
+ {
+    grid-area: img7;
+    border: 2px solid black;
+ }
+ #img8
+ {
+    grid-area: img8;
+    border: 2px solid black;
+ }
+ #img9
+ {
+    grid-area: img9;
+    border: 2px solid black;
+ }
+ #img10
+ {
+    grid-area: img10;
+    border: 2px solid black;
+ }
+ #in
+ {
+    grid-area: in;
+    border: 2px solid black;
+ }
+}

@@ -1,0 +1,135 @@
+@media screen and (min-width:650px) and (max-width:800px)
+{
+    #main
+    {
+        display: grid;
+        text-align: center;
+        background-color: rgb(90, 121, 76);
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+                                "lo pass login"
+                                "img1 img2 img3"
+                                "in in in"
+                                "img4 img5 img6"
+                                "navi navi navi"
+                                "img7 img8 img9"
+                                
+        ;
+    }
+ img
+ {
+   height: 150px;
+   width: 250px;
+   margin-bottom: -6px;
+ }
+ p
+ {
+   display: flex;
+ }
+ h4
+ {
+   display: none;
+ }
+ a
+ {
+   color: black;
+   text-align: right;
+ }
+ ul
+ {
+   display: none;
+ }
+ ol
+ {
+   text-align: left;
+ }
+ #img10
+ {
+   display: none;
+ }
+ #lo
+ {
+   grid-area: lo;
+   padding-top: 10px;
+   border: 2px solid black;
+ }
+ #logo
+ {
+   height: 120px;
+   width: 200px;
+   padding: 0%;
+ }
+ #login
+ {
+   grid-area: login;
+   padding-top: 10px;
+   border: 2px solid black;
+ }
+ #pass
+ {
+   grid-area: pass;
+   border: 2px solid black;
+   padding-top: 10px;
+ }
+ #navi
+ {
+   grid-area: navi;
+   border: 2px solid black;
+   padding-top: 10px;
+ }
+ #img1
+ {
+   grid-area: img1;
+   border: 2px solid black;
+ }
+ #img2
+ {
+   grid-area: img2;
+   border: 2px solid black;
+ }
+ #img3
+ {
+   grid-area: img3;
+   border: 2px solid rgb(12, 12, 12);
+ }
+ #img4
+ {
+   grid-area: img4;
+   border: 2px solid black;
+ }
+ #img5
+ {
+   grid-area: img5;
+   border: 2px solid black;
+ }
+ #img6
+ {
+   grid-area: img6;
+   border: 2px solid black;
+ }
+ #img7
+ {
+   grid-area: img7;
+   border: 2px solid black;
+ }
+ #img8
+ {
+   grid-area: img8;
+   border: 2px solid black;
+ }
+ #img9
+ {
+   grid-area: img9;
+   border: 2px solid black;
+ }
+ #img10
+ {
+   grid-area: img10;
+   border: 2px solid black;
+ }
+ #in
+ {
+   grid-area: in;
+   border: 2px solid black;
+ }
+}

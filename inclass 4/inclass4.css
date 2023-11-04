@@ -1,0 +1,14 @@
+fieldset
+{
+    width: 50%;
+}
+input
+{
+    margin: 5px;
+    height: 20px;
+}
+#reg
+{
+    color: rgb(10, 23, 166);
+    background-color: bisque;
+}

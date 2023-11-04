@@ -1,0 +1,130 @@
+@media screen and (min-width:800px)
+{
+    #main
+    {
+        display: grid;
+        text-align: center;
+        background-color: rgb(204, 147, 183);
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+                                "lo lo lo lo login pass"
+                                "navi navi img1 img2 in in"
+                                "navi navi img3 img4 in in"
+                                "navi navi img5 img6 in in"
+                                "img7 img8 img9 img9 img10 img10"
+        ;
+    }
+
+
+    img
+    {
+        height: 150px;
+        width: 250px;
+        margin-bottom: -4px;
+    }
+    ul
+    {
+        display: none;
+    }
+    h4
+    {
+        display: none;
+    }
+    ol
+    {
+        text-align: left;
+    }
+    a
+    {
+        color: black;
+    }
+    #lo
+    {
+        grid-area: lo;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+        padding-top: 20px;
+    }
+    #login
+    {
+        grid-area: login;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+        padding-top: 20px;
+    }
+    #pass
+    {
+        grid-area: pass;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+        padding-top: 20px;
+    }
+    #navi
+    {
+        grid-area: navi;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img1
+    {
+        grid-area: img1;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img2
+    {
+        grid-area: img2;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img3
+    {
+        grid-area: img3;
+        border:3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img4
+    {
+        grid-area: img4;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img5
+    {
+        grid-area: img5;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img6
+    {
+        grid-area: img6;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img7
+    {
+        grid-area: img7;
+        border:3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img8
+    {
+        grid-area: img8;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img9
+    {
+        grid-area: img9;
+        border:3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img10
+    {
+        grid-area: img10;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #in
+    {
+        grid-area: in;
+        border: 3px solid rgba(238, 0, 255, 0.225);
+    }
+    #img81
+    {
+        height: 150px;
+        width: 505px;
+    }
+    #img91
+    {
+        height: 150px;
+        width: 497px;
+    }
+
+}

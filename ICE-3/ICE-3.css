@@ -1,0 +1,135 @@
+#main
+{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr 1fr;
+    grid-gap: 0.2rem;
+    grid-template-areas: 
+                           "header header header header"
+                           "header header header header"
+                           "header header header header"
+                           "header header header header"
+                           "mainnav mainnav mainnav mainnav"
+                           
+                           "search banner cate side"
+                           "search banner cate side"
+                           "search banner cate side"
+                           "search copy cate side"
+                           
+                           "social products cate side"
+                           "social products cate side"
+                           "social products cate side"
+                           "news copy1 other other"
+                           
+                           "news blog other other"
+                           "news blog other other"
+                           "news blog other other"
+                           "news blog other other"
+                           
+                           "footer footer footer footer"
+    ;
+
+}
+#header
+{
+    background-color: rgb(169, 218, 89);
+    color: rgb(0, 0, 0);
+    grid-area: header;
+    text-align: center;
+    margin: -0.2rem;
+}
+#mainnav
+{
+    background-color: rgb(6, 192, 130);
+    color: black;
+    grid-area: mainnav;
+    text-align: center;
+}
+#search
+{
+    background-color: rgb(44, 232, 229);
+    color: black;
+    grid-area: search;
+    grid-gap: 0.5rem;
+    padding: 10px;
+}
+#social
+{
+    background-color: rgb(42, 90, 209);
+    color: black;
+    grid-area: social;
+    padding: 10px;
+}
+#news
+{
+    background-color: rgb(5, 79, 110);
+    color: black;
+    grid-area: news;
+    padding: 10px;
+}
+#banner
+{
+    background-color: rgb(201, 100, 45);
+    color: black;
+    grid-area: banner;
+    margin-bottom: -0.2rem;
+    padding: 10px;
+}
+#copy
+{
+    background-color: rgb(226, 70, 70);
+    color: black;
+    grid-area: copy;
+    margin-bottom: -0.2rem;
+    padding: 10px;
+}
+#products
+{ 
+    background-color: rgb(218, 100, 27);
+    color: rgb(14, 10, 10);
+    grid-area: products;
+    margin-bottom: -0.2rem;
+    padding: 10px;
+}
+#copy1
+{
+    background-color: rgb(226, 70, 70);
+    color: black;
+    grid-area: copy1;
+    margin-bottom: -0.2rem;
+    padding: 10px;
+}
+#blog
+{
+    background-color: rgb(100, 38, 38);
+    color: black;
+    grid-area: blog;
+    padding: 10px;
+}
+#cate
+{
+    background-color: rgb(233, 230, 57);
+    color: black;
+    grid-area: cate;
+    padding: 10px;
+}
+#side
+{
+    background-color: rgb(227, 238, 8);
+    color: black;
+    grid-area: side;
+    padding: 10px;
+}
+#other
+{
+    background-color: rgb(77, 84, 1);
+    color: black;
+    grid-area: other;
+    padding: 10px;
+}
+#footer
+{
+    background-color: rgb(22, 154, 220);
+    color: black;
+    grid-area: footer;
+    text-align: center;
+}
